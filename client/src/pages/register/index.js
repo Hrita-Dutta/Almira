@@ -1,6 +1,7 @@
 import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
+import 'src/pages/register/index.js'
 
 const SignupSchema = Yup.object().shape({
   firstName: Yup.string()
@@ -15,9 +16,9 @@ const SignupSchema = Yup.object().shape({
 });
 
 const Register = () => (
-  <div>
-    <h1>Signup</h1>
-    <Formik
+  <div className='py-10 text-white bg-slate-500'>
+    <h1 className='text-center'>Signup</h1>
+    <Formik className="flex "
       initialValues={{
         firstName: '',
         lastName: '',
@@ -30,7 +31,7 @@ const Register = () => (
       }}
     >
       {({ errors, touched }) => (
-        <Form>
+        <Form  className=''>
           <Field placeholder="firstName" name="firstName" />
           {errors.firstName && touched.firstName ? (
             <div>{errors.firstName}</div>
