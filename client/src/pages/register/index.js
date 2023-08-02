@@ -16,9 +16,9 @@ const SignupSchema = Yup.object().shape({
 });
 
 const Register = () => (
-  <div className='py-10 text-white bg-slate-500'>
-    <h1 className='text-center'>Signup</h1>
-    <Formik className="flex "
+  <div className='py-10 text-white bg-slate-500 mx-auto'>
+    <h1 className='text-center text-3xl'>Registration Form</h1><br/>
+    <Formik 
       initialValues={{
         firstName: '',
         lastName: '',
@@ -30,18 +30,20 @@ const Register = () => (
         console.log(values);
       }}
     >
+
       {({ errors, touched }) => (
-        <Form  className=''>
-          <Field placeholder="firstName" name="firstName" />
+        <Form  className='text-center'>
+          <Field className='my-3' placeholder="firstName" name="firstName" />
           {errors.firstName && touched.firstName ? (
             <div>{errors.firstName}</div>
-          ) : null}
-          <Field placeholder='lastName' name="lastName" />
+          ) : null}<br/>
+          <Field className='my-3' placeholder='lastName' name="lastName" />
           {errors.lastName && touched.lastName ? (
             <div>{errors.lastName}</div>
-          ) : null}
-          <Field placeholder="email" name="email" type="email" />
+          ) : null}<br/>
+          <Field className='my-3' placeholder="email" name="email" type="email" />
           {errors.email && touched.email ? <div>{errors.email}</div> : null}
+          <br/>
           <button type="submit">Submit</button>
         </Form>
       )}
