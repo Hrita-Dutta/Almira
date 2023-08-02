@@ -44,7 +44,7 @@ const Register = () => (
           <Field className='my-3' placeholder="email" name="email" type="email" />
           {errors.email && touched.email ? <div>{errors.email}</div> : null}
           <br/>
-          <button type="submit">Submit</button>
+          <button className='rounded-full px-3 bg-orange-500' type="submit">Submit</button>
         </Form>
       )}
     </Formik>
