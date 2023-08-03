@@ -33,15 +33,15 @@ const Register = () => (
 
       {({ errors, touched }) => (
         <Form  className='text-center'>
-          <Field className='my-3' placeholder="firstName" name="firstName" />
+          <Field className='my-3 text-black' placeholder="firstName" name="firstName" />
           {errors.firstName && touched.firstName ? (
             <div>{errors.firstName}</div>
           ) : null}<br/>
-          <Field className='my-3' placeholder='lastName' name="lastName" />
+          <Field className='my-3 text-black' placeholder='lastName' name="lastName" />
           {errors.lastName && touched.lastName ? (
             <div>{errors.lastName}</div>
           ) : null}<br/>
-          <Field className='my-3' placeholder="email" name="email" type="email" />
+          <Field className='my-3 text-black' placeholder="email" name="email" type="email" />
           {errors.email && touched.email ? <div>{errors.email}</div> : null}
           <br/>
           <button className='rounded-full px-3 bg-orange-500' type="submit">Submit</button>
