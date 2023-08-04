@@ -3,6 +3,7 @@ const UsersRoutes = require('./routes/users')
 const app = express()
 const connectDb = require('./db/connection')
 require('dotenv').config()
+
 app.use(express.json())
 app.use(UsersRoutes)
 

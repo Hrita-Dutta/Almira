@@ -15,6 +15,7 @@ Making an ecommerce website using MERN Stack
 - [ ] Product Catalogue
 - [ ] Shopping Cart
 - [ ] Secure Checkout Process
+- [ ] Rating System
 
 
 

@@ -5,7 +5,7 @@ const userSchema = new mongoose. Schema({
     userName: String, // String is shorthand for {type: String}
     email: String,
     password: String,
-    phoneNumber: Number,
+    phoneNumber: Number, // Number is shorthand for {type: Number}
     role: {
       type: String,
       enum: ['buyer', 'seller', 'admin'],
