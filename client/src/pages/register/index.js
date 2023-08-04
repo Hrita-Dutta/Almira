@@ -2,7 +2,8 @@ import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import 'src/pages/register/index.js'
-import Image from 'next/image';
+import Navbar from '../components/navbar';
+import Header from '../components/header';
 
 const SignupSchema = Yup.object().shape({
   firstName: Yup.string()
@@ -19,26 +20,13 @@ const SignupSchema = Yup.object().shape({
 
 const Register = () => (
   <>
-
-  {/* Code for Navbar */}
-  <div className=' bg-stone-300 '>
-    <div className='container mx-auto text-stone-500 py-3  flex justify-between'>
-      <div>
-        <Image src="/almiraLogo.png" width={200} height={100} ></Image>
-      </div>
-      <div>
-        {/* Code will be added in future */}
-      </div>
-      <div>
-        {/* Code will be added in future */}
-      </div>
-    </div>
-  </div>
-
+  <Header/>
+  <Navbar/>
+  
   {/* Code for Registration form */}
   <div className='bg-[#EEEDE7] h-[90vh] flex justify-center items-center'>
   <div>
-    <div className='text-3xl text-zinc-400 text-center'>
+    <div className='text-5xl text-zinc-600 text-center font-semibold'>
     <h1>Registration Form</h1><br/>
     </div>
 

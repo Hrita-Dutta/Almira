@@ -1,8 +1,14 @@
 import React from 'react'
+import Navbar from '../components/navbar'
+import Header from '../components/header'
 
 function Login() {
   return (
-    <div>Hi this is Login Page</div>
+    <>
+    <Header/>
+    <Navbar/>
+    <h1>This is login page</h1>
+    </>
   )
 }
 
