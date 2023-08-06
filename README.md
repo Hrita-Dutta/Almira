@@ -23,6 +23,12 @@ Working on admin panel by making product details enterd by admin store in backen
 - [ ] Rating System
 
 
+## First Phase
+
+- [ ] Product details entered by user store in backend
+- [ ] Landing Page
+- [ ] Registration Page
+- [ ] Login Page
 
 ## Technologies Used
 
@@ -30,10 +36,3 @@ Working on admin panel by making product details enterd by admin store in backen
 - Express Js 
 - React Js(NextJs)
 - Node Js
-
-## First Phase
-
-- [ ] Product details entered by user store in backend
-- [ ] Landing Page
-- [ ] Registration Page
-- [ ] Login Page
