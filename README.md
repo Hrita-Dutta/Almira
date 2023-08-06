@@ -1,4 +1,4 @@
-# Almira
+# Almira(Ecommerce site)
 
 Making an ecommerce website using MERN Stack
 
