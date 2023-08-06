@@ -1,8 +1,9 @@
 const express = require('express')
 const router = express.Router()
-const {addNewProducts} = require('../controllers/products')
+const {addNewProducts, getAllProducts} = require('../controllers/products')
 
 router.post('/products', addNewProducts)
+router.get('/products', getAllProducts)
 // router.get('/users', getAllUser)
 // router.get('/users/:id', getUserById)
 // router.delete('/users/:id', deleteExistingUser)

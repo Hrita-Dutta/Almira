@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 
-function Header() {
+function Navbar() {
   return (
     <>
     {/* Code for Navbar */}
@@ -22,4 +22,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Navbar

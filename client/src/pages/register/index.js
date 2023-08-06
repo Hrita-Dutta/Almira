@@ -2,7 +2,7 @@ import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import 'src/pages/register/index.js'
-import Header from '../components/header';
+import Navbar from '@/Components/Navbar';
 
 const SignupSchema = Yup.object().shape({
   firstName: Yup.string()
@@ -19,7 +19,7 @@ const SignupSchema = Yup.object().shape({
 
 const Register = () => (
   <>
-  <Header/>
+  <Navbar/>
   
   {/* Code for Registration form */}
   <div className='flex justify-center items-center'>

@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from '../components/header'
+import Navbar from '@/Components/Navbar'
 
 function Login() {
   return (
     <>
-    <Header/>
+    <Navbar/>
  
     <h1>This is login page</h1>
     </>

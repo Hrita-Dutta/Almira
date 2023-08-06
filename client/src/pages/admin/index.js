@@ -2,19 +2,23 @@ import React from 'react';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import 'src/pages/register/index.js'
-import Header from '../components/header';
+
+import Navbar from '@/Components/Navbar';
 
 
 
 const Admin = () => {
 
   const handleAddProducts = (values) => {
-    fetch("http://localhost:8080/products", {method:"POST"})
+    fetch("http://localhost:8080/products", 
+    {method:"POST",
+    headers:{'Content-Type': 'application/json'},
+    body:JSON.stringify(values)})
   } 
 
 return (
 <>
-<Header/>
+<Navbar/>
 
 {/* Code for Registration form */}
 <div className='flex justify-center items-center'>
@@ -23,7 +27,7 @@ return (
   <h1>Add Product</h1><br/>
   </div>
 
-  <div className=' '>
+  <div className=''>
   <Formik 
     className=""
     initialValues={{
