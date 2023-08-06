@@ -1,4 +1,4 @@
-# Almira(Ecommerce site)
+# Almira(Product Ecommerce site)
 
 Making an ecommerce website using MERN Stack
 
@@ -7,12 +7,17 @@ Making an ecommerce website using MERN Stack
 - [@HritaDutta](https://www.github.com/Hrita-Dutta)
 
 
+## Current Status of Project
+
+Working on admin panel by making product details enterd by admin store in backend(compass).
+
 ## Features
 
+- [ ] Admin Panel
+- [ ] Product Catalogue
 - [ ] User Registration 
 - [ ] User Login
 - [ ] User Authentication (Registration and Login)
-- [ ] Product Catalogue
 - [ ] Shopping Cart
 - [ ] Secure Checkout Process
 - [ ] Rating System
@@ -25,3 +30,10 @@ Making an ecommerce website using MERN Stack
 - Express Js 
 - React Js(NextJs)
 - Node Js
+
+## First Phase
+
+- [ ] Product details entered by user store in backend
+- [ ] Landing Page
+- [ ] Registration Page
+- [ ] Login Page
