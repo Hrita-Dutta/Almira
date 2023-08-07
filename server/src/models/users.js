@@ -10,7 +10,9 @@ const userSchema = new mongoose. Schema({
       type: String,
       enum: ['buyer', 'seller', 'admin'],
       default: 'admin'
-    }
+    },
+    favourite: Array,
+    cartItems: Array
   });
   
   const Users = mongoose.model('Users', userSchema);

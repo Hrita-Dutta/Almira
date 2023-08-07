@@ -42,7 +42,7 @@ return (
 
     {({ errors, touched }) => (
       <Form  className='flex flex-col p-8 border-2 gap-8 bg-zinc-400 w-[400px] rounded-3xl  drop-shadow-2xl'>
-        <Field className='my-3 text-black' placeholder="productName" name="productName" />
+        <Field className='my-3 text-black p-2' placeholder="productName" name="productName" />
         {errors.productName && touched.productName ? (
           <div className=' text-orange-700'>{errors.productName}</div>
         ) : null}

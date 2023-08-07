@@ -6,15 +6,15 @@ function Navbar() {
   return (
     <>
     {/* Code for Navbar */}
-  <div className=' bg-gray-300 '>
-    <div className='container mx-auto text-stone-500 py-3 flex justify-between'>
+  <div className=' bg-orange-100'>
+    <div className='container mx-auto text-stone-500  flex justify-between items-center'>
       <div>
         <Image src="/almiraLogo.png" width={150} height={0} ></Image>
       </div>
-      <div className=' py-3'>
-        <h1>Navbar</h1>
+      <div className=' '>
+        <h1 className=' text-xl'>Navbar</h1>
       </div>
-      <div className='py-3'>
+      <div className=''>
         <SearchIcon/>
       </div>
     </div>
