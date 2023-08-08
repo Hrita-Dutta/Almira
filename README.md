@@ -5,6 +5,7 @@ Making an ecommerce website using MERN Stack
 ## Author
 
 - [@HritaDutta](https://www.github.com/Hrita-Dutta)
+- In supervision of [@KaylinKhanal](https://www.github.com/kaylinkhanal)
 
 
 ## Current Status of Project
