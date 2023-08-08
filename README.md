@@ -26,10 +26,16 @@ Working on admin panel by making product details enterd by admin store in backen
 
 ## First Phase
 
-- [ ] Product details entered by user store in backend
-- [ ] Landing Page
 - [ ] Registration Page
 - [ ] Login Page
+- [ ] Landing Page
+- [ ] Admin Page
+
+## Second Phase
+
+- [ ] Product details entered by user store in backend
+- [ ] Register user when details entered
+- [ ] Login user if valid
 
 ## Technologies Used
 
